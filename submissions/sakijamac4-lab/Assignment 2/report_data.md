@@ -58,5 +58,3 @@ That makes clustering the right approach: group respondents by similarity in age
 This dataset is well suited to a clustering project (e.g., K-Means or hierarchical clustering) that groups mobile money users into behavioral segments for example, “high-frequency business users,” “occasional bill-payers,” or “low-volume savers.” Such clusters could help a mobile money provider design targeted fee structures, savings products, or business loan offers for each segment.
 
 If a clear target were defined in a future version of the survey (for example, explicitly asking respondents to report their monthly income as a label), the same features could instead support a supervised regression task predicting income or spending capacity. As collected now, however, the dataset sits at the data collection and preparation stage of the Data Science lifecycle: raw data has been gathered and lightly cleaned (missing values filled), and it is now ready for the preprocessing and exploratory analysis stage described in Lesson 4 (encoding the Purpose column, scaling numerical features, and detecting outliers) before any clustering model is trained.
-
-
